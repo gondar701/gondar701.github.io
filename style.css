@@ -1,0 +1,50 @@
+.profil{
+	max-width: 200px;
+	max-height: 200px;
+	border-radius: 100%;
+	filter: contrast(50%);
+	border: 2px solid #ccc;
+	text-align: center;
+	display: flex;
+	margin: auto;
+}
+ul{
+	list-style: none;
+}
+.active{
+	border-bottom: solid black;
+	height: 100%;
+}
+.name{
+	font-weight: bold;
+}
+.porto{
+	font-family: Georgia;
+	font-size: 15px;
+	font-style: italic;
+}
+.b-left{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	margin-top: 20px;
+	max-width: 750px;
+	height: auto;
+	background-color: white;
+	font-size: 20px;
+	box-sizing: border-box;
+	padding: 20px;
+	box-shadow: -3px 0px 1px darkblue;
+}
+.content{
+	background-color: #ffff;
+}
+.skil{
+	flex-wrap: wrap;
+}
+.skil li{
+	margin: 10px;
+}
+.skil img{
+	width: 50px;
+}
