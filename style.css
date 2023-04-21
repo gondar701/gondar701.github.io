@@ -48,22 +48,24 @@ ul{
 .skil img{
 	width: 50px;
 }
-svg{
-	width: 100px;
-}
 .max{
 	max-width: 750px;
 	display: flex;
 	margin: auto;
 	justify-content: space-between;
 }
-.max a{
+.medsos a{
 	display: inline-block;
 	padding: 10px;
 	border-radius: 10px;
 	background-color: #eeee;
 	box-shadow: 1px 1px 5px 2px black;
 }
-.max a:hover{
-	background-color: #ffd43b;
+.medsos{
+	display: grid;
+	max-width: 750px;
+	margin: auto;
+	border: solid;
+	grid-template-columns: repeat(4, minmax(50px, 100px));
 }
+
