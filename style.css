@@ -1,3 +1,6 @@
+*{
+	background-color: #fff;
+}
 .profil{
 	max-width: 200px;
 	max-height: 200px;
@@ -48,24 +51,46 @@ ul{
 .skil img{
 	width: 50px;
 }
-.max{
-	max-width: 750px;
-	display: flex;
-	margin: auto;
-	justify-content: space-between;
+h3{
+	text-align: center;
 }
 .medsos a{
-	display: inline-block;
+	display: grid;
 	padding: 10px;
 	border-radius: 10px;
-	background-color: #eeee;
-	box-shadow: 1px 1px 5px 2px black;
+/*	background-color: #eeee;*/
+	border: inset #bbb;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	align-content: space-between;
+	font-weight: bold;
+}
+.medsos svg{
+	transition: 0.2s;
+/*	background-color: #eee;*/
+}
+.medsos svg:hover{
+	transform: scale(1.1);
+}
+.medsos a:hover{
+	border: outset #aaa;
 }
 .medsos{
 	display: grid;
-	max-width: 750px;
+	max-width: 600px;
 	margin: auto;
-	border: solid;
 	grid-template-columns: repeat(4, minmax(50px, 100px));
+	justify-content: space-between;
 }
-
+.medsos img{
+	max-width: 100px;
+}
+@media(max-width: 600px){
+	.medsos{
+		display: grid;
+		grid-template-columns: repeat(2, minmax(50px, 100px));
+		grid-gap: 20px;
+		justify-content: space-evenly;
+	}
+}
