@@ -1,6 +1,4 @@
-*{
-	background-color: #fff;
-}
+
 .profil{
 	max-width: 200px;
 	max-height: 200px;
@@ -15,7 +13,7 @@ ul{
 	list-style: none;
 }
 .active{
-	border-bottom: solid black;
+	border-bottom: solid white;
 	height: 100%;
 }
 .name{
